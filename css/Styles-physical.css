@@ -108,8 +108,18 @@ blockquote span::before {
     position: relative;
 }
 
+.main {
+    /*border: 1px solid red;*/
+}
+
 .main-content {
     background: white;
+}
+
+.debug {
+    box-shadow: inset 0 0 0 1px red;
+    outline: 1px solid red;
+    background: red;
 }
 
 .wrapper {
@@ -125,7 +135,7 @@ blockquote span::before {
 
 .section-content {
     margin-top: 164px;
-    position:relative;
+    position: relative;
 }
 
 .section-content:first-of-type {
